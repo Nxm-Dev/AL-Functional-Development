@@ -49,7 +49,7 @@ table 74104 "Reciepts List"
 
     keys
     {
-        key(PK; "User ID")
+        key(PK; Email)
         {
             Clustered = true;
         }
