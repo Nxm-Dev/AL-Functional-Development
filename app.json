@@ -10,7 +10,14 @@
   "help": "",
   "url": "",
   "logo": "",
-  "dependencies": [],
+  "dependencies": [
+    {
+      "id": "097e30f1-15ab-4121-8468-f48eccb3cb42",
+      "name": "Service Module",
+      "publisher": "ZIL",
+      "version": "1.0.0.0"
+    }
+  ],
   "screenshots": [],
   "platform": "1.0.0.0",
   "application": "23.0.0.0",

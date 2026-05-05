@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Browns",
+            "name": "Browns DEV",
             "request": "launch",
             "type": "al",
             "environmentType": "Sandbox",
@@ -17,11 +17,26 @@
             "schemaUpdateMode": "ForceSync"
         },
         {
+            "name": "Browns DEV2",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "DEV2",
+            "tenant": "lolcgroup.onmicrosoft.com",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "ForceSync"
+        },
+        {
             "name": "BrownsEV",
             "request": "launch",
             "type": "al",
             "environmentType": "Sandbox",
-            "environmentName": "BrownsEVGOLD",
+            "environmentName": "DEV2",
             "tenant": "lctptd.onmicrosoft.com",
             "startupObjectId": 30,
             "startupObjectType": "Page",

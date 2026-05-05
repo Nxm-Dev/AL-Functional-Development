@@ -43,7 +43,7 @@ codeunit 74100 "Azure DevOps Integration"
         ParseWorkItemResponse(ResponseText, ReleaseWorkItem);
     end;
 
-    local procedure AddAuthenticationHeader(var RequestMessage: HttpRequestMessage)
+    procedure AddAuthenticationHeader(var RequestMessage: HttpRequestMessage)
     var
         Headers: HttpHeaders;
         PAT: Text;
@@ -278,6 +278,8 @@ codeunit 74100 "Azure DevOps Integration"
                 EmailBody += '<div class="company-heading browns-ev-heading">' + Company + ' Production Release</div>'
             else if Company = 'Ajax' then
                 EmailBody += '<div class="company-heading ajax-heading">' + Company + ' Production Release</div>'
+            else if Company = 'LCT' then
+                EmailBody += '<div class="company-heading ajax-heading">LCT Production Release</div>'
             else
                 EmailBody += '<div class="company-heading browns-heading">' + Company + ' Production Release</div>';
 
